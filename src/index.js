@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Profile from './components/Profile';
+import photo from './img/ProfilePhoto.png';
 
 const user = {
-  name: 'Jacques Gluke',
-  tag: '@jgluke',
-  location: 'Ocho Rios, Jamaica',
-  avatar:
-    'http://okcolab.sasquatchstudio.co/wp-content/uploads/2017/05/avatar-sample.jpg',
+  name: 'Timothy Grant',
+  tag: '@tgrant',
+  location: 'Sao Paulo, Brazil',
+  avatar: photo,
   stats: {
     followers: 5603,
     views: 4827,

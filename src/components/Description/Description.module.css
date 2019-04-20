@@ -1,4 +1,73 @@
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../fonts/Lato-Bold/lato-v15-latin-900.eot'); /* IE9 Compat Modes */
+  src: local('Lato Black'), local('Lato-Black'),
+    url('../../fonts/Lato-Bold/lato-v15-latin-900.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../../fonts/Lato-Bold/lato-v15-latin-900.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../../fonts/Lato-Bold/lato-v15-latin-900.woff') format('woff'),
+    /* Modern Browsers */ url('../../fonts/Lato-Bold/lato-v15-latin-900.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../../fonts/Lato-Bold/lato-v15-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/Lato-Regular/lato-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url('../../fonts/Lato-Regular/lato-v15-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../../fonts/Lato-Regular/lato-v15-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../../fonts/Lato-Regular/lato-v15-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+      url('../../fonts/Lato-Regular/lato-v15-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../../fonts/Lato-Regular/lato-v15-latin-regular.svg#Lato')
+      format('svg'); /* Legacy iOS */
+}
+
 .description {
   text-align: center;
-  width: 200px;
+  width: 250px;
+  border: 1px solid #fff;
+  box-shadow: 1px 0.5px 2px rgb(190, 189, 189);
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid #e4e9f0;
+}
+.avatar {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+.name {
+  margin: 0;
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+}
+.tag,
+.location {
+  margin: 0;
+  margin-top: 13px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #768696;
+}
+.location {
+  margin-bottom: 30px;
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Description.module.css';
 
 const Description = ({ alt, avatar, name, tag, location }) => (
-  <div className="description">
-    <img className="avatar" alt={alt} src={avatar} />
-    <p className="name">{name}</p>
-    <p className="tag">{tag}</p>
-    <p className="location">{location}</p>
+  <div className={styles.description}>
+    <img className={styles.avatar} alt={alt} src={avatar} />
+    <p className={styles.name}>{name}</p>
+    <p className={styles.tag}>{tag}</p>
+    <p className={styles.location}>{location}</p>
   </div>
 );
 

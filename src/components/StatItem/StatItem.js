@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './StatItem.module.css';
 
 const StatItem = ({ label, quantity }) => (
-  <li>
-    <span className="label">{label}</span>
-    <span className="quantity">{quantity}</span>
+  <li className={styles.statItem}>
+    <span className={styles.label}>{label}</span>
+    <span className={styles.quantity}>{quantity}</span>
   </li>
 );
 

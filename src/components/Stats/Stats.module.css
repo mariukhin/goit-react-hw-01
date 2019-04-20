@@ -1,0 +1,14 @@
+.stats {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  /* height: 75px; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f6f9;
+  border: 1px solid #f3f6f9;
+  border-top: 0;
+  box-shadow: 1px 1px 2px rgb(190, 189, 189);
+  border-radius: 0 0 5px 5px;
+}

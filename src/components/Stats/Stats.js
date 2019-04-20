@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import StatItem from '../StatItem/StatItem';
+import styles from './Stats.module.css';
 
 const Stats = ({ stats }) => (
-  <ul className="stats">
+  <ul className={styles.stats}>
     <StatItem label="Followers" quantity={stats.followers} />
     <StatItem label="Views" quantity={stats.views} />
     <StatItem label="Likes" quantity={stats.likes} />
