@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import photo from './img/ProfilePhoto.png';
+import pricingPlanItems from './pricing-plan.json';
 
 const user = {
   name: 'Timothy Grant',
@@ -24,6 +25,11 @@ const stats = [
 ];
 
 ReactDOM.render(
-  <App user={user} title="Upload stats" stats={stats} />,
+  <App
+    user={user}
+    title="Upload stats"
+    stats={stats}
+    items={pricingPlanItems}
+  />,
   document.getElementById('root'),
 );
