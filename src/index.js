@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import photo from './img/ProfilePhoto.png';
 import pricingPlanItems from './pricing-plan.json';
+import bronzeLogo from './img/bronze-icon.png';
+import silverLogo from './img/silver-icon.png';
+import goldLogo from './img/gold-icon.png';
+
+pricingPlanItems[0].icon = bronzeLogo;
+pricingPlanItems[1].icon = silverLogo;
+pricingPlanItems[2].icon = goldLogo;
 
 const user = {
   name: 'Timothy Grant',

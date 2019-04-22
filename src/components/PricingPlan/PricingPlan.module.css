@@ -1,0 +1,16 @@
+.pricingPlan {
+  width: 1411px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 50px;
+}
+.pricingPlanItem {
+  padding: 0;
+  flex-basis: 451px;
+  box-shadow: 1px 1px 2px rgb(190, 189, 189);
+}
