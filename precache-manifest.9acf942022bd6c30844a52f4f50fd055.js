@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/goit-react-hw-01/static/media/raleway-v13-latin-regular.f6c57152.svg"
   },
   {
-    "revision": "6bf592ebd4fc1ef9c73c",
-    "url": "/goit-react-hw-01/static/css/main.da803238.chunk.css"
+    "revision": "039ef2325658a21e4d71",
+    "url": "/goit-react-hw-01/static/css/main.0ea75512.chunk.css"
   },
   {
     "revision": "f51632aec18d5636ad74",
     "url": "/goit-react-hw-01/static/js/runtime~main.bdf556df.js"
   },
   {
-    "revision": "ffd7ce9bf38b9aea5f6c",
-    "url": "/goit-react-hw-01/static/js/2.764bf7cb.chunk.js"
+    "revision": "39d0ae806092204e67be",
+    "url": "/goit-react-hw-01/static/js/2.b6d3f4b7.chunk.js"
   },
   {
     "revision": "4f42bb929241060db55d45a6afe81962",
@@ -52,20 +52,20 @@ self.__precacheManifest = [
     "url": "/goit-react-hw-01/static/media/raleway-v13-latin-regular.5d060e06.ttf"
   },
   {
-    "revision": "6bf592ebd4fc1ef9c73c",
-    "url": "/goit-react-hw-01/static/js/main.e4b0d5ed.chunk.js"
+    "revision": "039ef2325658a21e4d71",
+    "url": "/goit-react-hw-01/static/js/main.822ad90a.chunk.js"
   },
   {
     "revision": "b4d2c4c39853ee244272c04999b230ba",
     "url": "/goit-react-hw-01/static/media/lato-v15-latin-regular.b4d2c4c3.woff2"
   },
   {
-    "revision": "056a373d808ada4f12a2d6538e88823c",
-    "url": "/goit-react-hw-01/static/media/lato-v15-latin-regular.056a373d.eot"
-  },
-  {
     "revision": "b8ee546acd6cc0c49f42ad3d48ef244f",
     "url": "/goit-react-hw-01/static/media/lato-v15-latin-regular.b8ee546a.woff"
+  },
+  {
+    "revision": "056a373d808ada4f12a2d6538e88823c",
+    "url": "/goit-react-hw-01/static/media/lato-v15-latin-regular.056a373d.eot"
   },
   {
     "revision": "d1d5e30aa8bb081cad8f409f27861672",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/goit-react-hw-01/static/media/ProfilePhoto.66324319.png"
   },
   {
-    "revision": "4edad4c753b29028c60ee5115a29e628",
+    "revision": "879f38926d40edf0c4b2774f1c0b07c6",
     "url": "/goit-react-hw-01/index.html"
   }
 ];
