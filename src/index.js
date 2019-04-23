@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 import photo from './img/ProfilePhoto.png';
 import pricingPlanItems from './pricing-plan.json';
+import transactions from './transactions.json';
 import bronzeLogo from './img/bronze-icon.png';
 import silverLogo from './img/silver-icon.png';
 import goldLogo from './img/gold-icon.png';
@@ -37,6 +38,7 @@ ReactDOM.render(
     title="Upload stats"
     stats={stats}
     items={pricingPlanItems}
+    transactions={transactions}
   />,
   document.getElementById('root'),
 );

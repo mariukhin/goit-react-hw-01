@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import Profile from './Profile';
 import StatsSection from './StatsSection/StatsSection';
 import PricingPlan from './PricingPlan/PricingPlan';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
-const App = ({ user, title, stats, items }) => (
+const App = ({ user, title, stats, items, transactions }) => (
   <div>
     <Profile user={user} />
     <StatsSection title={title} stats={stats} />
     <PricingPlan items={items} />
+    <TransactionHistory transactions={transactions} />
   </div>
 );
 App.defaultProps = {
@@ -41,6 +43,14 @@ App.propTypes = {
       capacity: PropTypes.string.isRequired,
       price: PropTypes.number.isRequired,
       description: PropTypes.string.isRequired,
+    }).isRequired,
+  ).isRequired,
+  transactions: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
     }).isRequired,
   ).isRequired,
 };
