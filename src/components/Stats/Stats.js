@@ -10,10 +10,6 @@ const Stats = ({ stats }) => (
     <StatItem label="Likes" quantity={stats.likes} />
   </ul>
 );
-
-// Stats.defaultProps = {
-//   stats: {},
-// };
 Stats.propTypes = {
   stats: PropTypes.shape({
     followers: PropTypes.number.isRequired,
